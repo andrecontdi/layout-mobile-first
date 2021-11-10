@@ -2,10 +2,22 @@
   /* Modelo de caja */
   width: 100%;
   height: auto;
-  padding-top: 80px;
+  padding-top: 50px;
   padding-bottom: 30px;
   /* Visuales */
   background-color: var(--warm-black);
+}
+
+.batatabit-logo {
+  /* Posicionamiento */
+  position: absolute;
+  top: calc(290% - 35px);
+  left: calc(50% - 22px);
+  /* Modelo de caja */
+  width: 40px;
+  height: 25px;
+  /* Visuales */
+  background-image: url("../icons/batatabit-left.svg");
 }
 
 .main-product-detail__title {
