@@ -15,6 +15,7 @@
   --warm-black: #201e1c;
   --warm-black-plus-one: #282623;
   --grey: #bababa;
+  --dark-grey: #757575;
   --off-white: #faf8f7;
   --just-white: #ffffff;
   /* fonts */
@@ -31,4 +32,15 @@
 html {
   font-size: 62.5%;
   font-family: var(--dm-sans);
+}
+
+main {
+  /* Modelo de caja */
+  width: 100%;
+  min-width: 320px;
+  height: auto; /* El contenido será el que le de la altura */
+  /* Tipografía */
+  text-align: center;
+  /* Visuales */
+  background-color: var(--off-white);
 }

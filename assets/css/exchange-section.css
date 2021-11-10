@@ -1,0 +1,192 @@
+.main-exchange-container {
+  /* Modelo de caja */
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.main-exchange-container__background-img {
+  /* Modelo de caja */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  /* Visuales */
+  background-image: url("../images/Bitcoin.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-exchange-container__title {
+  /* Modelo de caja */
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.main-exchange-container__title h2 {
+  /* Tipografía */
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  color: var(--warm-black);
+}
+
+.main-exchange-container__title p {
+  /* Modelo de caaja */
+  margin-top: 24px;
+  /* Tipografía */
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: var(--dark-grey);
+}
+
+.tables-container__currency-table,
+.tables-container__comissions-table {
+  /* Modelo de caja */
+  width: 70%;
+  min-width: 235px;
+  max-width: 500px;
+  height: 360px;
+  margin: 0 auto;
+  margin-top: 48px;
+  /* Tipografía */
+  font-family: var(--inter);
+}
+
+.tables-container__currency-table h3,
+.tables-container__comissions-table h3 {
+  /* Tipografía */
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  text-align: left;
+}
+
+.tables-container__currency-table h3 {
+  color: var(--bitcoin-orange);
+}
+
+.tables-container__comissions-table h3 {
+  color: var(--secondary-blue);
+}
+
+.currency-table__container,
+.comissions-table__container {
+  /* Modelo de caja */
+  margin-top: 12px;
+  width: 90%;
+  min-width: 230px;
+  max-width: 300px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.currency-table__container table,
+.comissions-table__container table {
+  /* Modelo de caja */
+  width: 100%;
+  height: 100%;
+  margin-top: 12px;
+  /* Visuales */
+  border-radius: 8px;
+  background-color: var(--just-white);
+}
+
+.currency-table__container td,
+.comissions-table__container td {
+  /* Modelo de Caja */
+  width: 50%;
+  /* Tipografía */
+  font-weight: 500;
+}
+
+.currency-table--main-column,
+.comissions-table--main-column {
+  /* Modelo de caja */
+  padding: 10px 12px;
+  /* Tipografía */
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #b5b0ac;
+  text-align: left;
+  /* Visuales */
+  border-right: 0.5px solid var(--off-white);
+}
+
+.currency-table--secondary-column,
+.comissions-table--secondary-column {
+  /* Modelo de caja */
+  padding: 11px 12px;
+  /* Tipografía */
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: var(--dark-grey);
+}
+
+.currency-table--main-column,
+.currency-table--secondary-column,
+.comissions-table--main-column,
+.comissions-table--secondary-column {
+  /* Visuales */
+  border-bottom: 0.5px solid var(--off-white);
+}
+
+.currency-table--secondary-column span {
+  /* Posicionamiento */
+  display: inline-block;
+  /* Modelo de caja */
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+}
+
+.icon__trending-up {
+  background-image: url("../icons/trending-up.svg");
+}
+
+.icon__trending-down {
+  background-image: url("../icons/trending-down.svg");
+}
+
+.icon__trending-up,
+.icon__trending-down {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tables-container__currency-table p,
+.tables-container__comissions-table p {
+  /* Modelo de caja */
+  width: 190px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 16px;
+  padding: 8px;
+  /* Tipografía */
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  /* Visuales */
+  border-radius: 8px;
+}
+
+.tables-container__currency-table p {
+  /* Visuales */
+  background-color: var(--soft-orange);
+}
+
+.tables-container__comissions-table p {
+  /* Visuales */
+  background-color: var(--soft-blue);
+}
+
+.tables-container__currency-table p span,
+.tables-container__comissions-table p span {
+  /* Tipografía */
+  font-weight: 700;
+}
