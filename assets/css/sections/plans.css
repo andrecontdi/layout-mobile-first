@@ -1,0 +1,158 @@
+.main-plans {
+  /* Modelo de caja */
+  width: 100%;
+  height: auto;
+  padding-bottom: 64px;
+}
+
+.main-plans__title {
+  /* Modelo de caja */
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.main-plans__title h2 {
+  /* Modelo de caaja */
+  margin-top: 64px;
+  /* Tipografía */
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  color: var(--warm-black);
+}
+
+.main-plans__title p {
+  /* Modelo de caaja */
+  margin-top: 24px;
+  /* Tipografía */
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: var(--dark-grey);
+}
+
+.main-plans__slider {
+  display: flex;
+  height: 316px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+
+.main-plans__container {
+  /* Posicionamiento */
+  position: relative;
+  scroll-snap-align: center;
+  /* Modelo de caja */
+  width: 50%;
+  min-width: 190px;
+  max-width: 300px;
+  height: 250px;
+  margin: 0 15px;
+  margin-top: 50px;
+  padding: 0 15px;
+  /* Tipografía */
+  font-family: var(--inter);
+  /* Visuales */
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+  border: none;
+  border-radius: 8px;
+  background-color: var(--just-white);
+}
+
+.main-plans__container .higlight {
+  /* Posicionamiento */
+  position: absolute;
+  top: -16px;
+  left: calc(50% - 50px);
+  /* Modelo de caja */
+  width: 101px;
+  height: 31px;
+  padding: 15px 9px;
+  /* Tipografía */
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.5px;
+  color: var(--just-white);
+  /* Visuales */
+  background-color: var(--bitcoin-orange);
+  border: none;
+  border-radius: 8px;
+}
+
+.plan .plan--name {
+  /* Modelo de caja */
+  padding-top: 31px;
+  /* Tipografía */
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+
+.plan .plan--price {
+  /* Posicionamiento */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  /* Modelo de caja */
+  margin-top: 8px;
+}
+
+.plan--price p {
+  /* Modelo de caja */
+  padding: 8px 4px;
+  /* Tipografia */
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.plan--price h1 {
+  /* Tipografia */
+  font-weight: 700;
+  font-size: 5.2rem;
+}
+
+.plan .plan--comment {
+  /* Modelo de caja */
+  margin-top: 16px;
+  /* Tipografia */
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: var(--dark-grey);
+}
+
+.plan button {
+  /* Modelo de caja */
+  margin-top: 16px;
+  height: 48px;
+  width: 152px;
+  padding: 13px 14px;
+  /* Tipografia */
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: var(--warm-black);
+  /* Visuales */
+  border: 2px solid var(--bitcoin-orange);
+  border-radius: 4px;
+  background-color: var(--off-white);
+}
+
+.plan button span {
+  /* Posicionamiento */
+  display: inline-block;
+  /* Modelo de caja */
+  width: 20px;
+  height: 20px;
+  margin-left: 6px;
+  vertical-align: text-bottom;
+  /* Visuales */
+  background-image: url("../../icons/arrow-right-orange.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
