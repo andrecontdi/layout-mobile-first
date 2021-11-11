@@ -1,5 +1,6 @@
 .main-exchange-container__slider {
   display: flex;
+  overflow-x: hidden;
   width: 930px;
   margin: 0 auto;
 }
@@ -13,4 +14,6 @@
 
 .main-plans__slider {
   justify-content: center;
+  overflow-x: hidden;
+  height: 320px;
 }
