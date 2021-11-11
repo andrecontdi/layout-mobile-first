@@ -1,0 +1,54 @@
+footer {
+  /* Posicionamiento */
+  display: flex;
+  justify-content: space-between;
+  /* Modelo de caja */
+  height: 150px;
+  padding: 40px 65px;
+  /* Visuales */
+  background-color: var(--bitcoin-orange);
+}
+
+.footer__social {
+  /* Tipografía */
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--just-white);
+  /* Visuales */
+  list-style: none;
+}
+
+.footer__social li {
+  /* Posicionamiento */
+  padding-bottom: 8px;
+}
+
+.footer__brand {
+  /* Tipografía */
+  text-align: center;
+}
+
+.footer__brand span {
+  /* Posicionamiento */
+  display: inline-block;
+  /* Modelo de caja */
+  width: 40px;
+  height: 24px;
+  margin-top: 11px;
+  /* Visuales */
+  background-image: url("../icons/batatabit.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer__brand p {
+  /* Modelo de caja */
+  margin-top: 8px;
+  /* Tipografía */
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--just-white);
+}
