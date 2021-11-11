@@ -13,7 +13,7 @@
   margin: 0 auto;
   margin-bottom: 50px;
   /* Visuales */
-  background-image: url("../../images/Bitcoin.png");
+  background-image: url("../../../../images/Bitcoin.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -45,14 +45,24 @@
   color: var(--dark-grey);
 }
 
+.main-exchange-container__slider {
+  display: flex;
+  /* height: 316px; */
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+
 .tables-container__currency-table,
 .tables-container__comissions-table {
+  /* Posicionamiento */
+  scroll-snap-align: center;
   /* Modelo de caja */
   width: 70%;
   min-width: 235px;
   max-width: 500px;
   height: 360px;
-  margin: 0 auto;
+  margin: 0 50px;
   margin-top: 48px;
   /* Tipografía */
   font-family: var(--inter);
@@ -146,11 +156,11 @@
 }
 
 .icon__trending-up {
-  background-image: url("../icons/trending-up.svg");
+  background-image: url("../../icons/trending-up.svg");
 }
 
 .icon__trending-down {
-  background-image: url("../icons/trending-down.svg");
+  background-image: url("../../icons/trending-down.svg");
 }
 
 .icon__trending-up,
