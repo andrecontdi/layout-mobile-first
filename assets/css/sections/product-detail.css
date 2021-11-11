@@ -1,4 +1,6 @@
 .main-product-detail {
+  /* Posicionamiento */
+  position: relative;
   /* Modelo de caja */
   width: 100%;
   height: auto;
@@ -11,7 +13,7 @@
 .batatabit-logo {
   /* Posicionamiento */
   position: absolute;
-  top: calc(290% - 35px);
+  top: -12px;
   left: calc(50% - 22px);
   /* Modelo de caja */
   width: 40px;
