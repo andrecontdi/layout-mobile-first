@@ -48,18 +48,13 @@
   color: var(--medium-grey);
 }
 
-.main-product-detail__cards-container {
+.main-product-detail__cards-container .card {
   /* Modelo de caja */
   width: 90%;
   min-width: 288px;
-  max-width: 900px;
-  margin: 0 auto;
-  margin-top: 32px;
-}
-
-.main-product-detail__cards-container .card {
-  /* Modelo de caja */
-  height: auto;
+  max-width: 400px;
+  height: 150px;
+  margin: 15px auto;
   margin-top: 16px;
   padding: 22px 20px;
   /* Tipografía */
